@@ -103,10 +103,15 @@ public class WraithFireBlock extends AbstractFireBlock {
         return blockstate.is(ModBlocks.WRAITH_FIRE_BLOCK.get()) ? blockstate.setValue(AGE, age) : blockstate;
     }
 
+<<<<<<< HEAD
     @Override
     public void entityInside(BlockState state, World worldIn, BlockPos pos, Entity entityIn) {
     	System.out.print("\r\n");
         if (!entityIn.fireImmune() && !(entityIn instanceof WraithEntity)) {
+=======
+    public void entityInside(BlockState state, World worldIn, BlockPos pos, Entity entityIn) {
+        if (!entityIn.fireImmune() || entityIn instanceof WraithEntity) {
+>>>>>>> branch '1.16.4' of https://github.com/AlexandersFunAndGames/Dungeons-Mobs.git
             entityIn.setRemainingFireTicks(entityIn.getRemainingFireTicks() + 1);
             if (entityIn.getRemainingFireTicks() == 0) {
                 entityIn.setSecondsOnFire(8);

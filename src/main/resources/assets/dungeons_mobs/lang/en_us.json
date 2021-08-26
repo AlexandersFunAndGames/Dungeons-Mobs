@@ -31,8 +31,11 @@
   "item.dungeons_mobs.geomancer_spawn_egg": "Geomancer Spawn Egg",
   "entity.dungeons_mobs.windcaller": "Windcaller",
   "item.dungeons_mobs.windcaller_spawn_egg": "Windcaller Spawn Egg",
+<<<<<<< HEAD
   "entity.dungeons_mobs.enchanter": "Enchanter",
   "item.dungeons_mobs.enchanter_spawn_egg": "Enchanter Spawn Egg",
+=======
+>>>>>>> branch '1.16.4' of https://github.com/AlexandersFunAndGames/Dungeons-Mobs.git
   "entity.dungeons_mobs.mountaineer": "Mountaineer",
   "item.dungeons_mobs.mountaineer_spawn_egg": "Mountaineer Spawn Egg",
   "entity.dungeons_mobs.armored_mountaineer": "Armored Mountaineer",

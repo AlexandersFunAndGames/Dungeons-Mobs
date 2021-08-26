@@ -23,4 +23,7 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+<<<<<<< HEAD
 /.apt_generated/
+=======
+>>>>>>> branch '1.16.4' of https://github.com/AlexandersFunAndGames/Dungeons-Mobs.git

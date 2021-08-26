@@ -160,6 +160,7 @@ public class ModEntityTypes {
                     .setCustomClientFactory((spawnEntity,world) -> new WindcallerEntity(world))
                     .build(new ResourceLocation(MODID, "windcaller").toString())
     );
+<<<<<<< HEAD
     
     public static final RegistryObject<EntityType<EnchanterEntity>> ENCHANTER = ENTITY_TYPES.register("enchanter", () ->
     EntityType.Builder.<EnchanterEntity>of(EnchanterEntity::new, EntityClassification.MONSTER)
@@ -169,6 +170,8 @@ public class ModEntityTypes {
             .build(new ResourceLocation(MODID, "enchanter").toString())
     );
     
+=======
+>>>>>>> branch '1.16.4' of https://github.com/AlexandersFunAndGames/Dungeons-Mobs.git
     public static final RegistryObject<EntityType<VindicatorChefEntity>> VINDICATOR_CHEF = ENTITY_TYPES.register("vindicator_chef", () ->
             EntityType.Builder.<VindicatorChefEntity>of(VindicatorChefEntity::new, EntityClassification.MONSTER)
                     .sized(0.6F, 1.95F)

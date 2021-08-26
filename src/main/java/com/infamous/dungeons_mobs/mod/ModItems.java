@@ -94,6 +94,7 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.WINDCALLER,
                     9804699, 1973274,
                     new Item.Properties().tab(DUNGEONS_MOBS)));
+<<<<<<< HEAD
     
     public static final RegistryObject<ModSpawnEggItem> ENCHANTER_SPAWN_EGG = ITEMS.register("enchanter_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.ENCHANTER,
@@ -125,6 +126,34 @@ public class ModItems {
     public static final RegistryObject<ModSpawnEggItem> WRAITH_SPAWN_EGG = ITEMS.register("wraith_spawn_egg",
             () -> new ModSpawnEggItem(ModEntityTypes.WRAITH,
                     0x1a1862, 0x2586d9,
+=======
+
+    public static final RegistryObject<ModSpawnEggItem> VINDICATOR_CHEF_SPAWN_EGG = ITEMS.register("vindicator_chef_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.VINDICATOR_CHEF,
+                    9804699, 2580065,
+                    new Item.Properties().tab(DUNGEONS_MOBS)));
+
+    public static final RegistryObject<ModSpawnEggItem> MOUNTAINEER_SPAWN_EGG = ITEMS.register("mountaineer_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.MOUNTAINEER,
+                    9804699, 2580065,
+                    new Item.Properties().tab(DUNGEONS_MOBS)));
+
+    public static final RegistryObject<ModSpawnEggItem> ARMORED_MOUNTAINEER_SPAWN_EGG = ITEMS.register("armored_mountaineer_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.ARMORED_MOUNTAINEER,
+                    9804699, 2580065,
+                    new Item.Properties().tab(DUNGEONS_MOBS)));
+
+    // CREEPERS
+    public static final RegistryObject<ModSpawnEggItem> ICY_CREEPER_SPAWN_EGG = ITEMS.register("icy_creeper_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.ICY_CREEPER,
+                    894731, 0,
+                    new Item.Properties().tab(DUNGEONS_MOBS)));
+
+    // WRAITH
+    public static final RegistryObject<ModSpawnEggItem> WRAITH_SPAWN_EGG = ITEMS.register("wraith_spawn_egg",
+            () -> new ModSpawnEggItem(ModEntityTypes.WRAITH,
+                    4411786, 8978176,
+>>>>>>> branch '1.16.4' of https://github.com/AlexandersFunAndGames/Dungeons-Mobs.git
                     new Item.Properties().tab(DUNGEONS_MOBS)));
 
     // SLIME
